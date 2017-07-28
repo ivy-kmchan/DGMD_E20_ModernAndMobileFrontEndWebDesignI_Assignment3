@@ -1,0 +1,66 @@
+Course: DGMD E-20 Fall 2015
+Name: Ka Man Chan
+Assignment: Assignment 3
+
+Part 1
+    - My two jQuery-driven interactive elements in the form include:
+    1. #comments 
+    Located at this HTML URL: http://kamanc.siteground.net/KaManTravel_contact.html
+    The line numbers in the JavaScript file where this code is found are: 26-32
+
+    2. #qty
+    Located at this HTML URL: http://kamanc.siteground.net/KaManTravel_contact.html
+    The line numbers in the JavaScript file where this code is found are: 34-45
+   
+   
+    - My site’s click effect is:
+    1. hide & show
+    Located at this HTML URL: http://kamanc.siteground.net/index.html
+    The line numbers in the JavaScript file where this code is found are: 47-53
+
+
+    - My site’s hover effect is:
+    1. background color change & animate
+    Located at this HTML URL: http://kamanc.siteground.net/index.html
+    The line numbers in the JavaScript file where this code is found are: 71-94
+    
+
+    - My if/else choice is:
+    1. add html. Depending on the number the user chooses, a different message is shown.
+    Located at this HTML URL: http://kamanc.siteground.net/KaManTravel_contact.html
+    The line numbers in the JavaScript file where this code is found are: 34-45
+    
+
+    - My effect that requires filtering the results is:
+    1. hover. When the header is hovered in the About page, the header background color changes and the even numbered paragraphs become bold and green.
+    Located at this HTML URL: http://kamanc.siteground.net/KaManTravel_about.html
+    The line numbers in the JavaScript file where this code is found are: 146-165
+    
+
+    - Two more effects of my choice are:
+    1. slide up & slide down (two effects)
+    Located at this HTML URL: http://kamanc.siteground.net/index.html
+    The line numbers in the JavaScript file where this code is found are: 167-168
+
+    2. fade out & fade in (two effects)
+    Located at this HTML URL: http://kamanc.siteground.net/KaManTravel_about.html
+    The line numbers in the JavaScript file where this code is found are: 170-171
+
+
+Part 2
+    - The canvas element on my site occurs at this HTML URL: http://kamanc.siteground.net/KaManTravel_fun.html
+
+    - A button that, when clicked, clears the entire canvas or part of the canvas:
+    The line numbers in the JavaScript file where this code is found are: 316-320
+
+
+    - At least two different elements drawn on the canvas when a button is clicked:
+    The line numbers in the JavaScript file where this code is found are: 207-271
+
+
+    - Chaining methods:
+    The line numbers in the JavaScript file where this code is found are: 209-261
+    
+
+    - A form element on the page that accepts some kind of user input:
+    The line numbers in the JavaScript file where this code is found are: 175-205

@@ -1,0 +1,327 @@
+/* KaManTravel.css is for KaMan's Travel website, including:
+index.html,  KaManTravle_about.html,
+KaManTravle_tokyo.html (later) , KaManTravle_taipei.html (later),
+KaManTravle_seoul.html (later) , KaManTravle_contact.html.*/
+
+/* for box-model */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} 
+
+h1 {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: normal;
+}
+
+h2, h3, h4, h5, h6{
+	font-family: 'Amita', cursive;
+	font-weight: normal;
+	text-shadow: 1.5px 1.5px grey;
+}
+
+body {
+	font-family: 'Halant', "Times New Roman", Times, serif;
+	font-size: 1.1em;
+	background-color: #E8FFFF;
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	overflow: auto; 
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 6em;
+	padding-bottom:6em;
+}
+
+header {
+	background-color: #9298CC;
+	color: white;
+	width: 100%;
+	overflow: auto; 
+	position: fixed;
+}
+
+header h1 {
+	font-size: 2.1em;
+	margin: 0;
+	padding: 0.5em; 
+	float: left;
+	width: 40%;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav {
+	font-size: 1.1em;
+	font-weight: bold;
+	width: 60%;
+	padding-top: 1.3em;
+	float: right;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-align: right;
+}
+
+nav li {
+	display: inline;
+	padding-right: 1.2em;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 0.2em 0.6em;
+}
+
+nav a:hover {
+	color: orange;
+	background-color: black;
+}
+
+article{
+	float: left;
+	width: 30%;
+	margin-left: 2.5%;
+	overflow: auto;
+}
+
+article h2{
+	font-size: 1.8em;
+	text-shadow: 1.5px 1.5px grey;
+}
+
+.photoFloatRight{
+	float: right;
+	margin: 0 1em 1em 1em;
+}
+
+img{
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+	-moz-box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+	box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+}
+
+/* CSS3 columns */
+#aboutArticle{
+	font-size: 1em;
+	width: 95%;
+
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+
+    -webkit-column-width: 150px;
+    -moz-column-width: 150;
+    column-width: 150px;
+
+    -webkit-column-gap: 5em;
+    -moz-column-gap: 5em;
+    column-gap: 5em;
+
+    -webkit-column-rule: 2px dotted grey;
+    -moz-column-rule: 2px dotted grey;
+    column-rule: 2px dotted grey;
+
+	padding: 2em 2em 6em 2em;
+}
+
+#aboutArticleHeading {
+	font-size: 1.8em;
+	margin: 0;
+	color: purple;
+}
+
+#contactCommentWrapper{
+	float: left;
+	width: 50%;
+}
+
+#itineraryWrapper{
+	float: right;
+	width: 50%;
+	overflow: auto;
+}
+
+form h2{
+	font-size: 1.8em;
+	margin-left: 0.6em;
+	font-weight: bold;
+	text-align: left;
+	color: #054AFC;
+	text-shadow: 1.5px 1.5px grey;
+}
+
+form p{
+	font-style: italic;
+	color: navy;
+}
+
+.element {
+	margin: 1.5em 0;
+}
+
+legend {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+fieldset {
+	margin: 1.2em 1em;
+	border: none;
+	background-color: #FFFAAE;
+	border-radius: 20px;
+	-webkit-box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+	-moz-box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+	box-shadow: 10px 10px 10px 5px rgba(136,136,136,0.5);
+}
+
+fieldset label {
+	display: block;
+	font-weight: normal;
+}
+
+input:not([type="radio"]):not([type="checkbox"]) {
+	display: block;
+	width: 15em;
+}
+
+fieldset input {
+	width: auto;
+}
+
+input, textarea {
+	width: 18rem;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+
+textarea {
+	height: 10em;
+	width: 25em;
+}
+
+optgroup, option{
+	width: 16rem;
+	border-radius: 5px;
+	border: 1px solid green;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 5px;
+}
+
+optgroup{
+	width: 18rem;
+}
+
+#buttonFloatRight{
+	float: right;
+	width: 20%
+}
+
+button{
+	margin-right: 2em;
+	font-size: 1em;
+}
+
+footer{
+	background-color: #9298CC;
+	color: white;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+}
+
+footer p {
+	font-size: 0.7em;
+	margin: 0;
+	padding: 0.2em; 
+	text-align: center;
+}
+
+#funHeading{
+	font-size: 1.8em;
+	margin: 0;
+	color: brown;
+	margin: 1em 0 0 0;
+}
+
+#leftCanvasWrapper{
+	float: left;
+	width: 30%;
+	overflow: auto;
+	padding: 0em 0.2em 0.5em 0.2em;
+}
+
+#middleCanvasWrapper{
+	float: left;
+	width: 35%;
+	overflow: auto;
+}
+
+#rightCanvasWrapper{
+	float: left;
+	width: 35%;
+	overflow: auto;
+}
+
+#canvas1{
+	border: 2px solid purple;
+	height: 350px;
+	width: 350px;
+	float: right;
+}
+
+#canvas2{
+	border: 2px solid purple;
+	height: 350px;
+	width: 350px;
+	float: left;
+}
+
+.canvasButton{
+	font-size: 0.8em;
+	float: left;
+	padding: 0.2em;
+}
+
+#postcardText{
+	width: 19rem;
+}
+
+
+
+/* for jQuery */
+.error {
+	border-color: red;
+	color: red;
+}
+
+.visitMessage {
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+	padding: 1em 0;
+}
+
+.thankYouMessage{
+	color: blue;
+	font-style: italic;
+	font-weight: bold;
+	padding: 1em 0;
+}

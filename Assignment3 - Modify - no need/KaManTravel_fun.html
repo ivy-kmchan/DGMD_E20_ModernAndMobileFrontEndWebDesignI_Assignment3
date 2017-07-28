@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ka Man Travel - Fun</title>
+	<link href='https://fonts.googleapis.com/css?family=Luckiest+Guy' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Amita:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Halant:500' rel='stylesheet' type='text/css'>
+	<!-- The below combined Google Fonts code resulted with validation error. Hence, added each one separately.-->
+	<!--<link href='https://fonts.googleapis.com/css?family=Amita:700|Halant:500' rel='stylesheet' type='text/css'>-->
+	<link href="css/KaManTravel.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>Ka Man's Travel</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="KaManTravel_about.html">About</a></li>
+				<li><a href="KaManTravel_fun.html">Fun</a></li>
+				<!-- <li><a href="#">Tokyo</a></li> later please use "KaManTravel_tokyo.html"-->
+				<!-- <li><a href="#">Taipei</a></li> later please use "KaManTravel_taipei.html" -->
+				<!-- <li><a href="#">Seoul</a></li> later please use "KaManTravel_seoul.html"-->
+				<li><a href="KaManTravel_contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="wrapper">			
+		<h2 id="funHeading">Create a Postcard</h2>
+		<div id="leftCanvasWrapper">
+			
+			<div class="element">
+			<label for="postcardBackgroundColor">Please choose a background color: </label>
+			<br>
+        	<select id="postcardBackgroundColor">
+	            <optgroup label="Pease select a color:">
+	            <option value="#E8FFFF">Blue</option>
+	            <option value="#F5A7F0">Pink</option>
+	            <option value="#09DE00">Green</option>
+	            <option value="#FEF546">Yellow</option>
+            	</optgroup>
+	        </select>
+	        </div>
+	        <div class="element">
+			<label for="addSmile">Do you want to add a smile face?</label>
+			<br>
+        	<select id="addSmile">
+	            <optgroup label="Please choose Yes or No:">
+	            <option value="Yes">Yes</option>
+	            <option value="No">No</option>
+	            </optgroup>
+	        </select>
+	        </div>
+			<!--<div class="element">
+			<label for="postcardImage">Please choose a city photo: </label>
+			<br>
+        	<select id="postcardImage">
+	            <optgroup label="Please select a city:">
+	            <option value="Tokyo">Tokyo</option>
+	            <option value="Taipei">Taipei</option>
+	            <option value="Seoul">Seoul</option>
+	            <option value="No City">No City</option>
+	            </optgroup>
+	        </select>
+	        </div>
+	        <div class="element">
+			<label for="postcardText">Please enter a short text in photo if you like: (no text is shown if no photo is selected) </label>
+				<input type="text" id="postcardText">
+	        </div>-->
+			<div class="element">
+			<label for="addStar">Do you want to add a star?</label>
+			<br>
+        	<select id="addStar">
+	            <optgroup label="Please choose Yes or No:">
+	            <option value="Yes">Yes</option>
+	            <option value="No">No</option>
+	            </optgroup>
+	        </select>
+	        </div>
+			<div class="element">
+				<button class="canvasButton" id="createPostcardButton">Create Postcard</button>
+			</div>
+			<div class="element">
+				<button class="canvasButton" id="clearCanvasButton">Clear Canvases</button>
+			</div>
+		</div>
+		<div class="element" id="middleCanvasWrapper">	
+			<canvas id="canvas1"></canvas>
+		</div>
+
+		<div class="element" id="rightCanvasWrapper">
+			<canvas id="canvas2"></canvas>
+		</div>
+	</div>	
+		
+	<footer>
+		<p> &nbsp; © 2015 Ka Man's Travel. All rights reserved.</p>
+	</footer>
+
+	<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="js/jcanvas.min.js"></script>
+  	<script src="js/KaManTravel.js"></script>
+  	</body>
+</html>
